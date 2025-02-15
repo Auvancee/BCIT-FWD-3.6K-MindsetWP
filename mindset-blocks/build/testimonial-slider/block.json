@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mindset-blocks/testimonial-slider",
+  "version": "1.0.0",
+  "title": "Testimonial Slider",
+  "category": "widgets",
+  "icon": "editor-quote",
+  "description": "A slider of testimonials.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "multiple": false
+  },
+  "attributes": {
+    "navigation": {
+      "type": "boolean",
+      "default": true
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "testimonial-slider",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
